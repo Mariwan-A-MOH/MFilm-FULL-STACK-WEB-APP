@@ -1,0 +1,28 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.SliderPage2 {
+  width: 100%;
+  margin: auto;
+  margin-bottom:5rem;
+  position: relative;
+  background-image:linear-gradient(to right,rgba(2, 0, 0, 0.614),rgb(26, 44, 63));
+  height: 500px;
+padding:1rem 0px;
+border-top: 2px solid rgb(48, 70, 92);
+color: rgb(65, 83, 73);
+
+
+  /* background: rgba(177, 227, 247, 0.201); */
+}
+.slick-list2 {
+  /* background-color: red; */
+  height: 500px;
+}
+.slide2 {
+margin:0 1.8rem;
+  transform: scale(0.90);
+  opacity: 0.9;
+  transition: 500ms;
+  height: 400px;
+}

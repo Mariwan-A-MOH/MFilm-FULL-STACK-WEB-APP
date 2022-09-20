@@ -1,0 +1,66 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.SliderPage {
+  width: 100%;
+  margin: auto;
+
+  position: relative;
+  top: 2.2rem;
+
+
+}
+.slick-list {
+  /* background-color: red; */
+  height: 800px;
+  overflow: hidden;
+
+}
+.slide {
+  transform: scale(0.2);
+  opacity: 0.5;
+  transition: 500ms;
+  height: 600px;
+
+}
+.activeSlide {
+  transform: scale(0.77);
+  opacity: 1;
+}
+.arrow {
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  cursor: pointer;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: rgba(216, 211, 211, 0.801);
+}
+.next {
+  z-index: 10;
+  right: 0;
+  border-radius: 30px 0px 0px 30px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 255, 68, 0.365),
+    rgba(11, 105, 11, 0.429),
+    rgba(0, 0, 0, 0.1)
+  );
+}
+.prev {
+  left: 0;
+  border-radius: 0px 30px 30px 0px;
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 255, 68, 0.365),
+    rgba(11, 105, 11, 0.429),
+    rgba(0, 0, 0, 0.1)
+  );
+}
